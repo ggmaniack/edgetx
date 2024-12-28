@@ -626,7 +626,7 @@ int getStickTrimValue(int stick, int stickValue)
 #if defined(SURFACE_RADIO)
     // divide throtle trim by two since since the full extend
     // of forward/reverse chan is only 1024 instead of 2048
-    trim >>= 1;
+    // trim >>= 1;
 #endif
   }
   return trim;
